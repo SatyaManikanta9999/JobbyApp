@@ -1,0 +1,152 @@
+.jobs-layout {
+  display: flex;
+  padding: 30px;
+  background: #000;
+  color: white;
+  min-height: 100vh;
+}
+
+.left {
+  width: 280px;
+}
+
+.profile {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-size: cover;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.right {
+  flex: 1;
+  margin-left: 40px;
+}
+
+.card {
+  background: #272727;
+  padding: 16px 18px;
+  border-radius: 12px;
+  margin-bottom: 16px;
+  list-style: none;
+  max-width: 720px;
+}
+
+/* SMALL COMPANY LOGO */
+.card img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+
+/* CONTROL TITLE SIZE */
+.card h1,
+.card h2,
+.card h3 {
+  font-size: 18px;
+  margin: 6px 0;
+}
+
+/* CONTROL DESCRIPTION TITLE */
+.card h4 {
+  font-size: 15px;
+  margin: 8px 0 4px;
+}
+
+/* CONTROL TEXT */
+.card p {
+  font-size: 14px;
+  margin: 3px 0;
+  line-height: 1.4;
+}
+
+.no {
+  text-align: center;
+  margin-top: 60px;
+}
+
+/* SEARCH */
+
+.search-input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  color: white;
+  padding: 10px;
+  outline: none;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  border: 1px solid #64748b;
+  border-radius: 6px;
+  overflow: hidden;
+  width: 420px;
+  margin-bottom: 20px;
+  background: transparent;
+}
+
+.search-btn {
+  background: #202020;
+  border: none;
+  padding: 10px 14px;
+  color: white;
+  cursor: pointer;
+}
+
+.search-input::placeholder {
+  color: #94a3b8;
+}
+
+.job-link {
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+
+/* LOGO + TITLE */
+.job-header {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.company-logo {
+  width: 50px;
+  height: 50px;
+}
+
+.header-text h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.rating {
+  margin-top: 4px;
+  font-size: 14px;
+}
+
+/* LOCATION + TYPE + SALARY */
+.job-info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+}
+
+.left-info {
+  display: flex;
+  gap: 20px;
+  font-size: 14px;
+}
+
+.salary {
+  font-weight: bold;
+}
+
+/* DIVIDER */
+.divider {
+  margin: 14px 0;
+  border: 1px solid #475569;
+}

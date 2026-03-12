@@ -1,0 +1,103 @@
+.job-bg {
+  background: #000;
+  min-height: 100vh;
+  padding: 40px;
+  color: white;
+}
+
+.job-card {
+  background: #272727;
+  padding: 30px;
+  border-radius: 12px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.job-header {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.logo {
+  width: 60px;
+}
+
+.rating {
+  margin-top: 5px;
+}
+
+.job-info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 14px;
+}
+
+.left-info {
+  display: flex;
+  gap: 20px;
+}
+
+.salary {
+  font-weight: bold;
+}
+
+.desc-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+}
+
+.skill {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.skill img {
+  width: 40px;
+}
+
+.life {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.life img {
+  width: 300px;
+  border-radius: 8px;
+}
+
+.similar-title {
+  margin-top: 40px;
+}
+
+.similar-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  max-width: 900px;
+  margin: 20px auto;
+  list-style: none;
+  padding: 0;
+}
+
+.similar-card {
+  background: #272727;
+  padding: 20px;
+  border-radius: 12px;
+}
+.similar-title {
+  text-align: left;
+  max-width: 900px;
+  margin: 40px auto 20px;
+}
